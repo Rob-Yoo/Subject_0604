@@ -18,6 +18,7 @@ final class UserInfoTextFieldView: UIView {
         centeredParagraphStyle.alignment = .center
         textField.backgroundColor = .darkGray
         textField.attributedPlaceholder = NSAttributedString(string: fieldType.rawValue, attributes: [.foregroundColor : UIColor.white, .paragraphStyle: centeredParagraphStyle, .font: UIFont.systemFont(ofSize: 15)])
+        textField.keyboardType = fieldType.keyboardType
         textField.textColor = .white
         textField.layer.cornerRadius = 5
         
