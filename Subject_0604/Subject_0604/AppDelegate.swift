@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,7 +14,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        var latestLottoRound = UserDefaults.standard.integer(forKey: UserDefaults.lottoRoundKey)
+        
+        if (latestLottoRound == 0) {
+            latestLottoRound = 1122
+            UserDefaults.standard.setValue(latestLottoRound, forKey: UserDefaults.lottoRoundKey)
+        }
+        
+        let url = APIKey.lotteryURL + String(latestLottoRound + 1)
+        
+        NetworkManager.requestLotteryResult(url: url) { value in
+            UserDefaults.standard.setValue(latestLottoRound + 1, forKey: UserDefaults.lottoRoundKey)
+        }
+        
         return true
     }
 

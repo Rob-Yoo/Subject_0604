@@ -21,14 +21,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let tabBar = UITabBarController()
         let firstVC = UINavigationController(rootViewController: MovieListViewController())
         let secondVC = UINavigationController(rootViewController: UserJoinViewController())
+        let thirdVC = UINavigationController(rootViewController: LotteryViewController())
 
         UITabBar.appearance().tintColor = .white
         UITabBar.appearance().unselectedItemTintColor = .systemGray2
     
         firstVC.tabBarItem = UITabBarItem(title: "홈", image: UIImage(systemName: "house"),selectedImage: UIImage(systemName: "house.fill"))
         secondVC.tabBarItem = UITabBarItem(title: "내 계정", image: UIImage(systemName: "person"),selectedImage: UIImage(systemName: "person.fill"))
+        thirdVC.tabBarItem = UITabBarItem(title: "로또 결과", image: UIImage(systemName: "tray.full"), selectedImage: UIImage(systemName: "tray.full.fill"))
 
-        tabBar.viewControllers = [firstVC, secondVC]
+        tabBar.viewControllers = [firstVC, secondVC, thirdVC]
         window?.rootViewController = tabBar
     }
 

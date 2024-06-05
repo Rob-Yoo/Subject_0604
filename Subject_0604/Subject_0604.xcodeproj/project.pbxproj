@@ -16,6 +16,18 @@
 		CCAB9AA82C0F35B100C15C8E /* JoinFormStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB9AA72C0F35B100C15C8E /* JoinFormStackView.swift */; };
 		CCAB9AAA2C0F3D5B00C15C8E /* UserInfoTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB9AA92C0F3D5B00C15C8E /* UserInfoTextFieldView.swift */; };
 		CCAB9AAC2C0F3DD400C15C8E /* AdditionalInfoSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB9AAB2C0F3DD400C15C8E /* AdditionalInfoSwitchView.swift */; };
+		CCC40A672C109A2C00FAD4DF /* LotteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A662C109A2C00FAD4DF /* LotteryViewController.swift */; };
+		CCC40A692C109A9D00FAD4DF /* LotteryRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A682C109A9D00FAD4DF /* LotteryRootView.swift */; };
+		CCC40A6B2C109B4700FAD4DF /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A6A2C109B4700FAD4DF /* APIKey.swift */; };
+		CCC40A6E2C109E7400FAD4DF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CCC40A6D2C109E7400FAD4DF /* Alamofire */; };
+		CCC40A712C10A04800FAD4DF /* LotteryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A702C10A04800FAD4DF /* LotteryEntity.swift */; };
+		CCC40A732C10A21600FAD4DF /* LotteryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A722C10A21600FAD4DF /* LotteryModel.swift */; };
+		CCC40A762C10AA7700FAD4DF /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A752C10AA7700FAD4DF /* UserDefaults+Extension.swift */; };
+		CCC40A7E2C10BE6400FAD4DF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A7D2C10BE6400FAD4DF /* NetworkManager.swift */; };
+		CCC40A802C10CBFC00FAD4DF /* LottoryRoundPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A7F2C10CBFC00FAD4DF /* LottoryRoundPickerView.swift */; };
+		CCC40A822C10CE9900FAD4DF /* LotteryResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A812C10CE9900FAD4DF /* LotteryResultView.swift */; };
+		CCC40A842C10D04A00FAD4DF /* LottoNumberStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A832C10D04A00FAD4DF /* LottoNumberStackView.swift */; };
+		CCC40A862C10D0A400FAD4DF /* LottoNumberBallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A852C10D0A400FAD4DF /* LottoNumberBallView.swift */; };
 		CCFF11192C0F0251000D8E7D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CCFF11182C0F0251000D8E7D /* SnapKit */; };
 		CCFF111D2C0F0285000D8E7D /* UserJoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF111C2C0F0285000D8E7D /* UserJoinViewController.swift */; };
 		CCFF111F2C0F02CC000D8E7D /* MovieListRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF111E2C0F02CC000D8E7D /* MovieListRootView.swift */; };
@@ -37,6 +49,17 @@
 		CCAB9AA72C0F35B100C15C8E /* JoinFormStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinFormStackView.swift; sourceTree = "<group>"; };
 		CCAB9AA92C0F3D5B00C15C8E /* UserInfoTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoTextFieldView.swift; sourceTree = "<group>"; };
 		CCAB9AAB2C0F3DD400C15C8E /* AdditionalInfoSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfoSwitchView.swift; sourceTree = "<group>"; };
+		CCC40A662C109A2C00FAD4DF /* LotteryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryViewController.swift; sourceTree = "<group>"; };
+		CCC40A682C109A9D00FAD4DF /* LotteryRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryRootView.swift; sourceTree = "<group>"; };
+		CCC40A6A2C109B4700FAD4DF /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		CCC40A702C10A04800FAD4DF /* LotteryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryEntity.swift; sourceTree = "<group>"; };
+		CCC40A722C10A21600FAD4DF /* LotteryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryModel.swift; sourceTree = "<group>"; };
+		CCC40A752C10AA7700FAD4DF /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		CCC40A7D2C10BE6400FAD4DF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CCC40A7F2C10CBFC00FAD4DF /* LottoryRoundPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoryRoundPickerView.swift; sourceTree = "<group>"; };
+		CCC40A812C10CE9900FAD4DF /* LotteryResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryResultView.swift; sourceTree = "<group>"; };
+		CCC40A832C10D04A00FAD4DF /* LottoNumberStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoNumberStackView.swift; sourceTree = "<group>"; };
+		CCC40A852C10D0A400FAD4DF /* LottoNumberBallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoNumberBallView.swift; sourceTree = "<group>"; };
 		CCFF111C2C0F0285000D8E7D /* UserJoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserJoinViewController.swift; sourceTree = "<group>"; };
 		CCFF111E2C0F02CC000D8E7D /* MovieListRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListRootView.swift; sourceTree = "<group>"; };
 		CCFF11202C0F0728000D8E7D /* MainMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMovieView.swift; sourceTree = "<group>"; };
@@ -51,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCFF11192C0F0251000D8E7D /* SnapKit in Frameworks */,
+				CCC40A6E2C109E7400FAD4DF /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +100,9 @@
 		CC9F54D72C0F00F900D1A381 /* Subject_0604 */ = {
 			isa = PBXGroup;
 			children = (
+				CCC40A7C2C10BE5900FAD4DF /* Utility */,
+				CCC40A742C10AA4600FAD4DF /* Extension */,
+				CCC40A6F2C10A03F00FAD4DF /* Model */,
 				CC9F54ED2C0F014600D1A381 /* Controller */,
 				CC9F54EC2C0F013C00D1A381 /* View */,
 				CC9F54D82C0F00F900D1A381 /* AppDelegate.swift */,
@@ -83,6 +110,7 @@
 				CC9F54E12C0F00FA00D1A381 /* Assets.xcassets */,
 				CC9F54E32C0F00FA00D1A381 /* LaunchScreen.storyboard */,
 				CC9F54E62C0F00FA00D1A381 /* Info.plist */,
+				CCC40A6A2C109B4700FAD4DF /* APIKey.swift */,
 			);
 			path = Subject_0604;
 			sourceTree = "<group>";
@@ -90,6 +118,7 @@
 		CC9F54EC2C0F013C00D1A381 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CCC40A652C109A0900FAD4DF /* LotteryScreen */,
 				CCFF111B2C0F026F000D8E7D /* UserJoinScreens */,
 				CCFF111A2C0F0264000D8E7D /* MovieListScreens */,
 			);
@@ -101,8 +130,46 @@
 			children = (
 				CC9F54DC2C0F00F900D1A381 /* MovieListViewController.swift */,
 				CCFF111C2C0F0285000D8E7D /* UserJoinViewController.swift */,
+				CCC40A662C109A2C00FAD4DF /* LotteryViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCC40A652C109A0900FAD4DF /* LotteryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CCC40A682C109A9D00FAD4DF /* LotteryRootView.swift */,
+				CCC40A7F2C10CBFC00FAD4DF /* LottoryRoundPickerView.swift */,
+				CCC40A812C10CE9900FAD4DF /* LotteryResultView.swift */,
+				CCC40A832C10D04A00FAD4DF /* LottoNumberStackView.swift */,
+				CCC40A852C10D0A400FAD4DF /* LottoNumberBallView.swift */,
+			);
+			path = LotteryScreen;
+			sourceTree = "<group>";
+		};
+		CCC40A6F2C10A03F00FAD4DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCC40A702C10A04800FAD4DF /* LotteryEntity.swift */,
+				CCC40A722C10A21600FAD4DF /* LotteryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCC40A742C10AA4600FAD4DF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CCC40A752C10AA7700FAD4DF /* UserDefaults+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CCC40A7C2C10BE5900FAD4DF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CCC40A7D2C10BE6400FAD4DF /* NetworkManager.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		CCFF111A2C0F0264000D8E7D /* MovieListScreens */ = {
@@ -146,6 +213,7 @@
 			name = Subject_0604;
 			packageProductDependencies = (
 				CCFF11182C0F0251000D8E7D /* SnapKit */,
+				CCC40A6D2C109E7400FAD4DF /* Alamofire */,
 			);
 			productName = Subject_0604;
 			productReference = CC9F54D52C0F00F900D1A381 /* Subject_0604.app */;
@@ -177,6 +245,7 @@
 			mainGroup = CC9F54CC2C0F00F900D1A381;
 			packageReferences = (
 				CCFF11172C0F0251000D8E7D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				CCC40A6C2C109E7400FAD4DF /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = CC9F54D62C0F00F900D1A381 /* Products */;
 			projectDirPath = "";
@@ -205,18 +274,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9F54DD2C0F00F900D1A381 /* MovieListViewController.swift in Sources */,
+				CCC40A732C10A21600FAD4DF /* LotteryModel.swift in Sources */,
 				CCAB9AAA2C0F3D5B00C15C8E /* UserInfoTextFieldView.swift in Sources */,
+				CCC40A672C109A2C00FAD4DF /* LotteryViewController.swift in Sources */,
 				CCFF111D2C0F0285000D8E7D /* UserJoinViewController.swift in Sources */,
 				CCFF11212C0F0728000D8E7D /* MainMovieView.swift in Sources */,
 				CCAB9AA62C0F34CA00C15C8E /* UserJoinRootView.swift in Sources */,
+				CCC40A842C10D04A00FAD4DF /* LottoNumberStackView.swift in Sources */,
 				CC9F54D92C0F00F900D1A381 /* AppDelegate.swift in Sources */,
+				CCC40A692C109A9D00FAD4DF /* LotteryRootView.swift in Sources */,
 				CCFF11272C0F13BE000D8E7D /* HotMovieStackView.swift in Sources */,
 				CCAB9AA82C0F35B100C15C8E /* JoinFormStackView.swift in Sources */,
+				CCC40A802C10CBFC00FAD4DF /* LottoryRoundPickerView.swift in Sources */,
+				CCC40A862C10D0A400FAD4DF /* LottoNumberBallView.swift in Sources */,
+				CCC40A6B2C109B4700FAD4DF /* APIKey.swift in Sources */,
+				CCC40A7E2C10BE6400FAD4DF /* NetworkManager.swift in Sources */,
+				CCC40A712C10A04800FAD4DF /* LotteryEntity.swift in Sources */,
 				CC9F54DB2C0F00F900D1A381 /* SceneDelegate.swift in Sources */,
 				CCAB9AAC2C0F3DD400C15C8E /* AdditionalInfoSwitchView.swift in Sources */,
 				CCFF111F2C0F02CC000D8E7D /* MovieListRootView.swift in Sources */,
 				CCFF11232C0F0762000D8E7D /* HotContentsView.swift in Sources */,
+				CCC40A762C10AA7700FAD4DF /* UserDefaults+Extension.swift in Sources */,
 				CCFF11252C0F0D2E000D8E7D /* MainMovieButtonsStackView.swift in Sources */,
+				CCC40A822C10CE9900FAD4DF /* LotteryResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +523,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		CCC40A6C2C109E7400FAD4DF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
 		CCFF11172C0F0251000D8E7D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -454,6 +542,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		CCC40A6D2C109E7400FAD4DF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCC40A6C2C109E7400FAD4DF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		CCFF11182C0F0251000D8E7D /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CCFF11172C0F0251000D8E7D /* XCRemoteSwiftPackageReference "SnapKit" */;
