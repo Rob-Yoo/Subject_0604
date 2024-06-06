@@ -24,10 +24,11 @@
 		CCC40A732C10A21600FAD4DF /* LotteryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A722C10A21600FAD4DF /* LotteryModel.swift */; };
 		CCC40A762C10AA7700FAD4DF /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A752C10AA7700FAD4DF /* UserDefaults+Extension.swift */; };
 		CCC40A7E2C10BE6400FAD4DF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A7D2C10BE6400FAD4DF /* NetworkManager.swift */; };
-		CCC40A802C10CBFC00FAD4DF /* LottoryRoundPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A7F2C10CBFC00FAD4DF /* LottoryRoundPickerView.swift */; };
+		CCC40A802C10CBFC00FAD4DF /* LotteryRoundPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A7F2C10CBFC00FAD4DF /* LotteryRoundPickerView.swift */; };
 		CCC40A822C10CE9900FAD4DF /* LotteryResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A812C10CE9900FAD4DF /* LotteryResultView.swift */; };
 		CCC40A842C10D04A00FAD4DF /* LottoNumberStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A832C10D04A00FAD4DF /* LottoNumberStackView.swift */; };
 		CCC40A862C10D0A400FAD4DF /* LottoNumberBallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A852C10D0A400FAD4DF /* LottoNumberBallView.swift */; };
+		CCFA44862C1189F10098A424 /* Notification.Name+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA44852C1189F10098A424 /* Notification.Name+Extension.swift */; };
 		CCFF11192C0F0251000D8E7D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CCFF11182C0F0251000D8E7D /* SnapKit */; };
 		CCFF111D2C0F0285000D8E7D /* UserJoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF111C2C0F0285000D8E7D /* UserJoinViewController.swift */; };
 		CCFF111F2C0F02CC000D8E7D /* MovieListRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF111E2C0F02CC000D8E7D /* MovieListRootView.swift */; };
@@ -56,10 +57,11 @@
 		CCC40A722C10A21600FAD4DF /* LotteryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryModel.swift; sourceTree = "<group>"; };
 		CCC40A752C10AA7700FAD4DF /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		CCC40A7D2C10BE6400FAD4DF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		CCC40A7F2C10CBFC00FAD4DF /* LottoryRoundPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoryRoundPickerView.swift; sourceTree = "<group>"; };
+		CCC40A7F2C10CBFC00FAD4DF /* LotteryRoundPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryRoundPickerView.swift; sourceTree = "<group>"; };
 		CCC40A812C10CE9900FAD4DF /* LotteryResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryResultView.swift; sourceTree = "<group>"; };
 		CCC40A832C10D04A00FAD4DF /* LottoNumberStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoNumberStackView.swift; sourceTree = "<group>"; };
 		CCC40A852C10D0A400FAD4DF /* LottoNumberBallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoNumberBallView.swift; sourceTree = "<group>"; };
+		CCFA44852C1189F10098A424 /* Notification.Name+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Extension.swift"; sourceTree = "<group>"; };
 		CCFF111C2C0F0285000D8E7D /* UserJoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserJoinViewController.swift; sourceTree = "<group>"; };
 		CCFF111E2C0F02CC000D8E7D /* MovieListRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListRootView.swift; sourceTree = "<group>"; };
 		CCFF11202C0F0728000D8E7D /* MainMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMovieView.swift; sourceTree = "<group>"; };
@@ -139,7 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				CCC40A682C109A9D00FAD4DF /* LotteryRootView.swift */,
-				CCC40A7F2C10CBFC00FAD4DF /* LottoryRoundPickerView.swift */,
+				CCC40A7F2C10CBFC00FAD4DF /* LotteryRoundPickerView.swift */,
 				CCC40A812C10CE9900FAD4DF /* LotteryResultView.swift */,
 				CCC40A832C10D04A00FAD4DF /* LottoNumberStackView.swift */,
 				CCC40A852C10D0A400FAD4DF /* LottoNumberBallView.swift */,
@@ -150,8 +152,7 @@
 		CCC40A6F2C10A03F00FAD4DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CCC40A702C10A04800FAD4DF /* LotteryEntity.swift */,
-				CCC40A722C10A21600FAD4DF /* LotteryModel.swift */,
+				CCFA44872C1194860098A424 /* Lottery */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -160,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				CCC40A752C10AA7700FAD4DF /* UserDefaults+Extension.swift */,
+				CCFA44852C1189F10098A424 /* Notification.Name+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -170,6 +172,15 @@
 				CCC40A7D2C10BE6400FAD4DF /* NetworkManager.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		CCFA44872C1194860098A424 /* Lottery */ = {
+			isa = PBXGroup;
+			children = (
+				CCC40A702C10A04800FAD4DF /* LotteryEntity.swift */,
+				CCC40A722C10A21600FAD4DF /* LotteryModel.swift */,
+			);
+			path = Lottery;
 			sourceTree = "<group>";
 		};
 		CCFF111A2C0F0264000D8E7D /* MovieListScreens */ = {
@@ -285,11 +296,12 @@
 				CCC40A692C109A9D00FAD4DF /* LotteryRootView.swift in Sources */,
 				CCFF11272C0F13BE000D8E7D /* HotMovieStackView.swift in Sources */,
 				CCAB9AA82C0F35B100C15C8E /* JoinFormStackView.swift in Sources */,
-				CCC40A802C10CBFC00FAD4DF /* LottoryRoundPickerView.swift in Sources */,
+				CCC40A802C10CBFC00FAD4DF /* LotteryRoundPickerView.swift in Sources */,
 				CCC40A862C10D0A400FAD4DF /* LottoNumberBallView.swift in Sources */,
 				CCC40A6B2C109B4700FAD4DF /* APIKey.swift in Sources */,
 				CCC40A7E2C10BE6400FAD4DF /* NetworkManager.swift in Sources */,
 				CCC40A712C10A04800FAD4DF /* LotteryEntity.swift in Sources */,
+				CCFA44862C1189F10098A424 /* Notification.Name+Extension.swift in Sources */,
 				CC9F54DB2C0F00F900D1A381 /* SceneDelegate.swift in Sources */,
 				CCAB9AAC2C0F3DD400C15C8E /* AdditionalInfoSwitchView.swift in Sources */,
 				CCFF111F2C0F02CC000D8E7D /* MovieListRootView.swift in Sources */,

@@ -110,3 +110,16 @@ extension LotteryResultView {
         }
     }
 }
+
+
+//MARK: - Update Subviews
+extension LotteryResultView {
+    func update(data: LotteryEntity) {
+        let drwNoDate = data.drwNoDate
+        let round = String(data.drwNo)
+
+        self.dateLabel.text = drwNoDate + " 추첨"
+        self.roundLabel.text = round + "회"
+        self.lottoNumberStackView.update(data: data)
+    }
+}

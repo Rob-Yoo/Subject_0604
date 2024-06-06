@@ -8,6 +8,10 @@
 import UIKit
 import SnapKit
 
+protocol LotteryRootViewDelegate: AnyObject {
+    func roundPickerDidSelect(round: String)
+}
+
 final class LotteryRootView: UIView {
     
     private let lottoRoundTextField: UITextField = {
@@ -18,12 +22,13 @@ final class LotteryRootView: UIView {
         textField.textAlignment = .center
         textField.borderStyle = .roundedRect
         textField.textColor = .black
-        textField.inputView = LottoryRoundPickerView()
-        
+        textField.inputView = LotteryRoundPickerView()
         return textField
     }()
     
     private let lottoResutView = LotteryResultView()
+    
+    weak var lotteryRootViewDelegate: LotteryRootViewDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -55,8 +60,23 @@ final class LotteryRootView: UIView {
     }
 }
 
+
+//MARK: - Communication with Controller
 extension LotteryRootView {
+    func addUserAction() {
+        guard let delegate = lotteryRootViewDelegate else {
+            fatalError("LotteryRootViewDelegate 지정 후 사용!")
+        }
+        
+        NotificationCenter.default.post(name: .LotteryRootViewUserAction, object: delegate)
+    }
+    
     func update(data: LotteryEntity?) {
-        print(data)
+        guard let viewData = data else { return }
+        
+        let drwNo = String(viewData.drwNo)
+
+        self.lottoRoundTextField.text = drwNo
+        self.lottoResutView.update(data: viewData)
     }
 }

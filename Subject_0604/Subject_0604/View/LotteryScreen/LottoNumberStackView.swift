@@ -52,3 +52,15 @@ final class LottoNumberStackView: UIStackView {
         self.lottoNumberViews.forEach { self.addArrangedSubview($0) }
     }
 }
+
+extension LottoNumberStackView {
+    func update(data: LotteryEntity) {
+        let normalNumbers = [data.drwtNo1, data.drwtNo2, data.drwtNo3, data.drwtNo4, data.drwtNo5, data.drwtNo6]
+        let bonusNumber = data.bnusNo
+
+        for (lottoNumberBallView, number) in zip(self.lottoNumberBallViews, normalNumbers) {
+            lottoNumberBallView.update(number: number)
+        }
+        self.bonusNumberBallView.update(number: bonusNumber)
+    }
+}

@@ -16,4 +16,5 @@ struct LotteryEntity: Codable {
     let drwtNo6: Int
     let bnusNo: Int
     let drwNoDate: String
+    let drwNo: Int
 }

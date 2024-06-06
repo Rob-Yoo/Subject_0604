@@ -79,3 +79,9 @@ final class LottoNumberBallView: UIView {
         }
     }
 }
+
+extension LottoNumberBallView {
+    func update(number: Int) {
+        self.numberLabel.text = String(number)
+    }
+}

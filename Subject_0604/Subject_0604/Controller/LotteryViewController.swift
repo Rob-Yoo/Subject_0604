@@ -21,11 +21,14 @@ class LotteryViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.lotteryRootView.lotteryRootViewDelegate = self
+        self.lotteryRootView.addUserAction()
         self.observeModel()
     }
 }
 
-extension LotteryViewController: LottoryRoundPickerViewDelegate {
+//MARK: - User Action Handling
+extension LotteryViewController: LotteryRootViewDelegate {
     func roundPickerDidSelect(round: String) {
         self.model.fetchLotteryResult(round: round)
     }
