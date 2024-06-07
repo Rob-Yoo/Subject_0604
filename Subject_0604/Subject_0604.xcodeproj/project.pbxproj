@@ -12,6 +12,14 @@
 		CC9F54DD2C0F00F900D1A381 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9F54DC2C0F00F900D1A381 /* MovieListViewController.swift */; };
 		CC9F54E22C0F00FA00D1A381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9F54E12C0F00FA00D1A381 /* Assets.xcassets */; };
 		CC9F54E52C0F00FA00D1A381 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CC9F54E42C0F00FA00D1A381 /* Base */; };
+		CCA8E7692C12B28A00C5E6C1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA8E7682C12B28A00C5E6C1 /* TabBarController.swift */; };
+		CCA8E76C2C12B4A000C5E6C1 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = CCA8E76B2C12B4A000C5E6C1 /* Then */; };
+		CCAB15A62C12D1CB0049764A /* MovieAPIRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB15A52C12D1CB0049764A /* MovieAPIRootView.swift */; };
+		CCAB15A82C12D3400049764A /* MovieAPIBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB15A72C12D3400049764A /* MovieAPIBackgroundView.swift */; };
+		CCAB15AA2C12D5310049764A /* MovieAPISearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB15A92C12D5310049764A /* MovieAPISearchView.swift */; };
+		CCAB15AC2C12DEC60049764A /* MovieChartTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB15AB2C12DEC60049764A /* MovieChartTableView.swift */; };
+		CCAB15AE2C12E0040049764A /* MovieChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB15AD2C12E0040049764A /* MovieChartTableViewCell.swift */; };
+		CCAB15B62C12E4BC0049764A /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB15B52C12E4BC0049764A /* ReusableProtocol.swift */; };
 		CCAB9AA62C0F34CA00C15C8E /* UserJoinRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB9AA52C0F34CA00C15C8E /* UserJoinRootView.swift */; };
 		CCAB9AA82C0F35B100C15C8E /* JoinFormStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB9AA72C0F35B100C15C8E /* JoinFormStackView.swift */; };
 		CCAB9AAA2C0F3D5B00C15C8E /* UserInfoTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB9AA92C0F3D5B00C15C8E /* UserInfoTextFieldView.swift */; };
@@ -29,6 +37,10 @@
 		CCC40A842C10D04A00FAD4DF /* LottoNumberStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A832C10D04A00FAD4DF /* LottoNumberStackView.swift */; };
 		CCC40A862C10D0A400FAD4DF /* LottoNumberBallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC40A852C10D0A400FAD4DF /* LottoNumberBallView.swift */; };
 		CCFA44862C1189F10098A424 /* Notification.Name+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA44852C1189F10098A424 /* Notification.Name+Extension.swift */; };
+		CCFA44892C1198DD0098A424 /* MovieAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA44882C1198DD0098A424 /* MovieAPIViewController.swift */; };
+		CCFA448C2C1198F00098A424 /* MovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA448B2C1198F00098A424 /* MovieEntity.swift */; };
+		CCFA448E2C1198F80098A424 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA448D2C1198F80098A424 /* MovieModel.swift */; };
+		CCFA44902C119C620098A424 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA448F2C119C620098A424 /* Date+Extension.swift */; };
 		CCFF11192C0F0251000D8E7D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CCFF11182C0F0251000D8E7D /* SnapKit */; };
 		CCFF111D2C0F0285000D8E7D /* UserJoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF111C2C0F0285000D8E7D /* UserJoinViewController.swift */; };
 		CCFF111F2C0F02CC000D8E7D /* MovieListRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF111E2C0F02CC000D8E7D /* MovieListRootView.swift */; };
@@ -46,6 +58,13 @@
 		CC9F54E12C0F00FA00D1A381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC9F54E42C0F00FA00D1A381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC9F54E62C0F00FA00D1A381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA8E7682C12B28A00C5E6C1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		CCAB15A52C12D1CB0049764A /* MovieAPIRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPIRootView.swift; sourceTree = "<group>"; };
+		CCAB15A72C12D3400049764A /* MovieAPIBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPIBackgroundView.swift; sourceTree = "<group>"; };
+		CCAB15A92C12D5310049764A /* MovieAPISearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPISearchView.swift; sourceTree = "<group>"; };
+		CCAB15AB2C12DEC60049764A /* MovieChartTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieChartTableView.swift; sourceTree = "<group>"; };
+		CCAB15AD2C12E0040049764A /* MovieChartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieChartTableViewCell.swift; sourceTree = "<group>"; };
+		CCAB15B52C12E4BC0049764A /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
 		CCAB9AA52C0F34CA00C15C8E /* UserJoinRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserJoinRootView.swift; sourceTree = "<group>"; };
 		CCAB9AA72C0F35B100C15C8E /* JoinFormStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinFormStackView.swift; sourceTree = "<group>"; };
 		CCAB9AA92C0F3D5B00C15C8E /* UserInfoTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoTextFieldView.swift; sourceTree = "<group>"; };
@@ -62,6 +81,10 @@
 		CCC40A832C10D04A00FAD4DF /* LottoNumberStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoNumberStackView.swift; sourceTree = "<group>"; };
 		CCC40A852C10D0A400FAD4DF /* LottoNumberBallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoNumberBallView.swift; sourceTree = "<group>"; };
 		CCFA44852C1189F10098A424 /* Notification.Name+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Extension.swift"; sourceTree = "<group>"; };
+		CCFA44882C1198DD0098A424 /* MovieAPIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPIViewController.swift; sourceTree = "<group>"; };
+		CCFA448B2C1198F00098A424 /* MovieEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEntity.swift; sourceTree = "<group>"; };
+		CCFA448D2C1198F80098A424 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		CCFA448F2C119C620098A424 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		CCFF111C2C0F0285000D8E7D /* UserJoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserJoinViewController.swift; sourceTree = "<group>"; };
 		CCFF111E2C0F02CC000D8E7D /* MovieListRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListRootView.swift; sourceTree = "<group>"; };
 		CCFF11202C0F0728000D8E7D /* MainMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMovieView.swift; sourceTree = "<group>"; };
@@ -76,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCFF11192C0F0251000D8E7D /* SnapKit in Frameworks */,
+				CCA8E76C2C12B4A000C5E6C1 /* Then in Frameworks */,
 				CCC40A6E2C109E7400FAD4DF /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +126,7 @@
 		CC9F54D72C0F00F900D1A381 /* Subject_0604 */ = {
 			isa = PBXGroup;
 			children = (
+				CCAB15B42C12E4AC0049764A /* Protocol */,
 				CCC40A7C2C10BE5900FAD4DF /* Utility */,
 				CCC40A742C10AA4600FAD4DF /* Extension */,
 				CCC40A6F2C10A03F00FAD4DF /* Model */,
@@ -120,9 +145,11 @@
 		CC9F54EC2C0F013C00D1A381 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CCAB15A42C12D1BC0049764A /* MovieAPIScreen */,
 				CCC40A652C109A0900FAD4DF /* LotteryScreen */,
 				CCFF111B2C0F026F000D8E7D /* UserJoinScreens */,
 				CCFF111A2C0F0264000D8E7D /* MovieListScreens */,
+				CCA8E7682C12B28A00C5E6C1 /* TabBarController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -133,8 +160,29 @@
 				CC9F54DC2C0F00F900D1A381 /* MovieListViewController.swift */,
 				CCFF111C2C0F0285000D8E7D /* UserJoinViewController.swift */,
 				CCC40A662C109A2C00FAD4DF /* LotteryViewController.swift */,
+				CCFA44882C1198DD0098A424 /* MovieAPIViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCAB15A42C12D1BC0049764A /* MovieAPIScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CCAB15A52C12D1CB0049764A /* MovieAPIRootView.swift */,
+				CCAB15A72C12D3400049764A /* MovieAPIBackgroundView.swift */,
+				CCAB15A92C12D5310049764A /* MovieAPISearchView.swift */,
+				CCAB15AB2C12DEC60049764A /* MovieChartTableView.swift */,
+				CCAB15AD2C12E0040049764A /* MovieChartTableViewCell.swift */,
+			);
+			path = MovieAPIScreen;
+			sourceTree = "<group>";
+		};
+		CCAB15B42C12E4AC0049764A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CCAB15B52C12E4BC0049764A /* ReusableProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		CCC40A652C109A0900FAD4DF /* LotteryScreen */ = {
@@ -152,6 +200,7 @@
 		CCC40A6F2C10A03F00FAD4DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CCFA448A2C1198E10098A424 /* MovieAPI */,
 				CCFA44872C1194860098A424 /* Lottery */,
 			);
 			path = Model;
@@ -162,6 +211,7 @@
 			children = (
 				CCC40A752C10AA7700FAD4DF /* UserDefaults+Extension.swift */,
 				CCFA44852C1189F10098A424 /* Notification.Name+Extension.swift */,
+				CCFA448F2C119C620098A424 /* Date+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -181,6 +231,15 @@
 				CCC40A722C10A21600FAD4DF /* LotteryModel.swift */,
 			);
 			path = Lottery;
+			sourceTree = "<group>";
+		};
+		CCFA448A2C1198E10098A424 /* MovieAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CCFA448B2C1198F00098A424 /* MovieEntity.swift */,
+				CCFA448D2C1198F80098A424 /* MovieModel.swift */,
+			);
+			path = MovieAPI;
 			sourceTree = "<group>";
 		};
 		CCFF111A2C0F0264000D8E7D /* MovieListScreens */ = {
@@ -225,6 +284,7 @@
 			packageProductDependencies = (
 				CCFF11182C0F0251000D8E7D /* SnapKit */,
 				CCC40A6D2C109E7400FAD4DF /* Alamofire */,
+				CCA8E76B2C12B4A000C5E6C1 /* Then */,
 			);
 			productName = Subject_0604;
 			productReference = CC9F54D52C0F00F900D1A381 /* Subject_0604.app */;
@@ -257,6 +317,7 @@
 			packageReferences = (
 				CCFF11172C0F0251000D8E7D /* XCRemoteSwiftPackageReference "SnapKit" */,
 				CCC40A6C2C109E7400FAD4DF /* XCRemoteSwiftPackageReference "Alamofire" */,
+				CCA8E76A2C12B4A000C5E6C1 /* XCRemoteSwiftPackageReference "Then" */,
 			);
 			productRefGroup = CC9F54D62C0F00F900D1A381 /* Products */;
 			projectDirPath = "";
@@ -284,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFA448E2C1198F80098A424 /* MovieModel.swift in Sources */,
 				CC9F54DD2C0F00F900D1A381 /* MovieListViewController.swift in Sources */,
 				CCC40A732C10A21600FAD4DF /* LotteryModel.swift in Sources */,
 				CCAB9AAA2C0F3D5B00C15C8E /* UserInfoTextFieldView.swift in Sources */,
@@ -291,24 +353,34 @@
 				CCFF111D2C0F0285000D8E7D /* UserJoinViewController.swift in Sources */,
 				CCFF11212C0F0728000D8E7D /* MainMovieView.swift in Sources */,
 				CCAB9AA62C0F34CA00C15C8E /* UserJoinRootView.swift in Sources */,
+				CCAB15A62C12D1CB0049764A /* MovieAPIRootView.swift in Sources */,
 				CCC40A842C10D04A00FAD4DF /* LottoNumberStackView.swift in Sources */,
 				CC9F54D92C0F00F900D1A381 /* AppDelegate.swift in Sources */,
 				CCC40A692C109A9D00FAD4DF /* LotteryRootView.swift in Sources */,
+				CCAB15A82C12D3400049764A /* MovieAPIBackgroundView.swift in Sources */,
+				CCAB15AC2C12DEC60049764A /* MovieChartTableView.swift in Sources */,
 				CCFF11272C0F13BE000D8E7D /* HotMovieStackView.swift in Sources */,
 				CCAB9AA82C0F35B100C15C8E /* JoinFormStackView.swift in Sources */,
 				CCC40A802C10CBFC00FAD4DF /* LotteryRoundPickerView.swift in Sources */,
+				CCA8E7692C12B28A00C5E6C1 /* TabBarController.swift in Sources */,
 				CCC40A862C10D0A400FAD4DF /* LottoNumberBallView.swift in Sources */,
 				CCC40A6B2C109B4700FAD4DF /* APIKey.swift in Sources */,
+				CCFA44902C119C620098A424 /* Date+Extension.swift in Sources */,
 				CCC40A7E2C10BE6400FAD4DF /* NetworkManager.swift in Sources */,
 				CCC40A712C10A04800FAD4DF /* LotteryEntity.swift in Sources */,
 				CCFA44862C1189F10098A424 /* Notification.Name+Extension.swift in Sources */,
 				CC9F54DB2C0F00F900D1A381 /* SceneDelegate.swift in Sources */,
 				CCAB9AAC2C0F3DD400C15C8E /* AdditionalInfoSwitchView.swift in Sources */,
+				CCAB15B62C12E4BC0049764A /* ReusableProtocol.swift in Sources */,
 				CCFF111F2C0F02CC000D8E7D /* MovieListRootView.swift in Sources */,
+				CCAB15AA2C12D5310049764A /* MovieAPISearchView.swift in Sources */,
 				CCFF11232C0F0762000D8E7D /* HotContentsView.swift in Sources */,
+				CCFA44892C1198DD0098A424 /* MovieAPIViewController.swift in Sources */,
 				CCC40A762C10AA7700FAD4DF /* UserDefaults+Extension.swift in Sources */,
+				CCFA448C2C1198F00098A424 /* MovieEntity.swift in Sources */,
 				CCFF11252C0F0D2E000D8E7D /* MainMovieButtonsStackView.swift in Sources */,
 				CCC40A822C10CE9900FAD4DF /* LotteryResultView.swift in Sources */,
+				CCAB15AE2C12E0040049764A /* MovieChartTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +607,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		CCA8E76A2C12B4A000C5E6C1 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 		CCC40A6C2C109E7400FAD4DF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -554,6 +634,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		CCA8E76B2C12B4A000C5E6C1 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCA8E76A2C12B4A000C5E6C1 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
 		CCC40A6D2C109E7400FAD4DF /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CCC40A6C2C109E7400FAD4DF /* XCRemoteSwiftPackageReference "Alamofire" */;

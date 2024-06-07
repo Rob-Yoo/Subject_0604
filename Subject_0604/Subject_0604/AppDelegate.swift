@@ -11,8 +11,6 @@ import Alamofire
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         var latestLottoRound = UserDefaults.standard.integer(forKey: UserDefaults.lottoRoundKey)
         
