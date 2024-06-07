@@ -20,8 +20,8 @@ final class LotteryModel {
     func fetchLotteryResult(round: String) {
         let url = APIKey.lotteryURL + round
         
-        NetworkManager.requestLotteryResult(url: url) { value in
-            self.lottery = value
+        NetworkManager.requestLotteryResult(url: url) { [weak self] value in
+            self?.lottery = value
         }
     }
 }

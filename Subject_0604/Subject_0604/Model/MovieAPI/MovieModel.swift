@@ -20,8 +20,8 @@ class MovieModel {
     func fetchDailyBoxOffice(date: String) {
         let url = APIKey.movieURL + date
 
-        NetworkManager.requestDailyBoxOfficeList(url: url) { value in
-            self.boxOfficeResult = value.boxOfficeResult
+        NetworkManager.requestDailyBoxOfficeList(url: url) { [weak self] value in
+            self?.boxOfficeResult = value.boxOfficeResult
         }
     }
 }
